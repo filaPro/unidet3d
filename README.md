@@ -86,7 +86,7 @@ Please refer to the UniDet3D [checkpoint](https://github.com/filapro/unidet3d/re
 ### Predictions Example
 
 <p align="center">
-  <img src="???" alt="UniDet3D predictions"/>
+  <img src="https://github.com/user-attachments/assets/bb535823-cc9b-4482-a1b6-d10cf74c9389" alt="UniDet3D predictions"/>
 </p>
 
 ### Citation
