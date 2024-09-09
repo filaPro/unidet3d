@@ -1,7 +1,13 @@
 ## UniDet3D: Multi-dataset Indoor 3D Object Detection
 
 **News**:
- * :fire: September, 2024. UniDet3D is state-of-the-art in 6 indoor benchmarks: ScanNet ?paperswithcode?, ARKitScenes ?paperswithcode?, S3DIS ?paperswithcode?, MultiScan ?paperswithcode?, 3RScan ?paperswithcode?, and ScanNet++ ?paperswithcode?.  
+ * :fire: September, 2024. UniDet3D is state-of-the-art in 6 indoor benchmarks: <br>
+ ScanNet [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/unidet3d-multi-dataset-indoor-3d-object/3d-object-detection-on-scannetv2)](https://paperswithcode.com/sota/3d-object-detection-on-scannetv2?p=unidet3d-multi-dataset-indoor-3d-object) <br>
+ ARKitScenes [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/unidet3d-multi-dataset-indoor-3d-object/3d-object-detection-on-arkitscenes)](https://paperswithcode.com/sota/3d-object-detection-on-arkitscenes?p=unidet3d-multi-dataset-indoor-3d-object) <br>
+ S3DIS [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/unidet3d-multi-dataset-indoor-3d-object/3d-object-detection-on-s3dis)](https://paperswithcode.com/sota/3d-object-detection-on-s3dis?p=unidet3d-multi-dataset-indoor-3d-object) <br>
+ MultiScan [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/unidet3d-multi-dataset-indoor-3d-object/3d-object-detection-on-multiscan)](https://paperswithcode.com/sota/3d-object-detection-on-multiscan?p=unidet3d-multi-dataset-indoor-3d-object) <br>
+ 3RScan [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/unidet3d-multi-dataset-indoor-3d-object/3d-object-detection-on-3rscan)](https://paperswithcode.com/sota/3d-object-detection-on-3rscan?p=unidet3d-multi-dataset-indoor-3d-object) <br>
+ ScanNet++ [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/unidet3d-multi-dataset-indoor-3d-object/3d-object-detection-on-scannet-1)](https://paperswithcode.com/sota/3d-object-detection-on-scannet-1?p=unidet3d-multi-dataset-indoor-3d-object).  
 
 This repository contains an implementation of UniDet3D, a multi-dataset indoor 3D object detection method introduced in our paper:
 
@@ -13,7 +19,7 @@ This repository contains an implementation of UniDet3D, a multi-dataset indoor 3
 > [Anton Konushin](https://scholar.google.com/citations?user=ZT_k-wMAAAAJ)
 > <br>
 > Artificial Intelligence Research Institute<br>
-> https://arxiv.org/abs/2409.?????
+> https://arxiv.org/abs/2409.04234
 
 ### Installation
 
@@ -31,7 +37,7 @@ UniDet3D is trained and tested using 6 datasets: [ScanNet](data/scannet), [ARKit
 Preprocessed data can be found at our [Hugging Face](https://huggingface.co/datasets/maksimko123/UniDet3D). Download each archive, unpack, and move into the corresponding directory in [data](data). Please comply with the license agreement before downloading the data.
 
 Alternatively, you can preprocess the data by youself. 
-Training data for 3D object detection methods that do not requires superpoints, e.g. [TR3D](https://github.com/SamsungLabs/tr3d) or [FCAF3D](https://github.com/SamsungLabs/tr3d), can be prepared according to the [instructions](data).
+Training data for 3D object detection methods that do not requires superpoints, e.g. [TR3D](https://github.com/SamsungLabs/tr3d) or [FCAF3D](https://github.com/SamsungLabs/fcaf3d), can be prepared according to the [instructions](data).
 
 Superpoints for ScanNet and MultiScan are provided as a part of the original annotation. For the rest datasets, you can either download pre-computed superpoints at our [Hugging Face](https://huggingface.co/datasets/maksimko123/UniDet3D), or compute them using [superpoint_transformer](https://github.com/drprojects/superpoint_transformer).
 
@@ -97,7 +103,7 @@ If you find this work useful for your research, please cite our paper:
 @article{kolodiazhnyi2024unidet3d,
   title={UniDet3D: Multi-dataset Indoor 3D Object Detection},
   author={Kolodiazhnyi, Maxim and Vorontsova, Anna and Skripkin, Matvey and Rukhovich, Danila and Konushin, Anton},
-  journal={arXiv preprint arXiv:2409.?????},
+  journal={arXiv preprint arXiv:2409.04234},
   year={2024}
 }
 ```
